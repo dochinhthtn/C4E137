@@ -1,0 +1,20 @@
+1. Sử dụng thẻ ul để tạo danh sách những món ăn (tối thiểu 5 li) bạn yêu thích
+2. Sử dụng thẻ table, tr, td để tạo 1 danh sách người dùng của 1 ứng dụng
+    Mỗi người dùng có thông tin: 
+        ID
+        Họ và tên
+        Email
+        Tài khoản
+        Trạng thái (Đang hoạt động, Dừng hoạt động)
+
+3. Hãy xây dụng form đăng tin tuyển dụng gồm các trường thông tin:
+    Công ty tuyển dụng
+    Tiêu đề tin tuyển dụng
+    Ngày bắt đầu, ngày kết thúc
+    Mô tả ngắn
+    1 bảng gồm 3 hàng mỗi hàng có 3 cột, mỗi cột có 1 ô input để nhập:
+        Vị trí ứng tuyển
+        Số năm kinh nghiệm
+        Số lượng
+    
+    Button "Hoàn tất"

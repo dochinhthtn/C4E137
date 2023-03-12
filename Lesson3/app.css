@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* .title {
+    background-color: khaki;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px 0px;
+    border: 1px solid darkkhaki;
+    margin-bottom: 15px;
+}
+
+.text {
+    background-color: salmon;
+    border: 1px solid darksalmon;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.submit-btn {
+    padding: 8px 12px;
+    background-color: dodgerblue;
+    border: 1px solid blue;
+    border-radius: 3px;
+    color: white;
+}
+
+#app {
+    box-sizing: border-box;
+    width: 700px;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 0 auto;
+} */
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    height: 100vh;
+    background-color: deepskyblue;
+    border-right: 1px solid blue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sidebar-item {
+    height: 40px;
+    text-align: center;
+    background-color: coral;
+    border: 1px solid chocolate;
+    margin-bottom: 10px;
+    line-height: 40px;
+    position: relative;
+}
+
+.sidebar-item:hover .menu {
+    display: block;
+}
+
+.menu {
+    /* display: none; */
+    position: absolute;
+    top: 0px;
+    left: 240px;
+    width: 200px;
+}
+
+.menu-item {
+
+    text-align: center;
+    height: 40px;
+    border: 1px solid gray;
+    background-color: azure;
+    line-height: 40px;
+}

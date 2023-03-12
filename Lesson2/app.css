@@ -1,0 +1,60 @@
+/* .bai1 {
+    color: red;
+    text-transform: uppercase;
+} */
+
+.text-30 {
+    font-size: 30px;
+}
+
+.text-red-uppercase {
+    color: red;
+    text-transform: uppercase;
+}
+
+.text-blue-italic {
+    color: blue;
+    font-style: italic;
+}
+
+/* #my_table {
+    border-radius: 1px;
+    width: 600px;
+}
+
+tr {
+    border-bottom: 1px solid grey;
+}
+
+.aa {
+    background-color: aqua;
+    color: aliceblue;
+    font-weight: 800;
+    text-align: center;
+}
+
+.bb {
+    background-color: gray;
+} */
+
+.table {
+    width: 500px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.table td {
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+}
+
+.table-title {
+    font-weight: bold;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.table-striped {
+    background-color: #ccc;
+}

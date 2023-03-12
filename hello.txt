@@ -1,2 +1,126 @@
-Ngã ở đâu gấp đôi ở đấy
-Còn thở còn gỡ 😀
+
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_khach ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_khach;
+    INSERT INTO pvi_uat.dbo.dm_khach SELECT * FROM pvi_old_uat.dbo.dm_khach;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_khach OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_master ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_master;
+    INSERT INTO pvi_uat.dbo.dm_master SELECT * FROM pvi_old_uat.dbo.dm_master;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_master OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_nuoc_tinhtp ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_nuoc_tinhtp;
+    INSERT INTO pvi_uat.dbo.dm_nuoc_tinhtp SELECT * FROM pvi_old_uat.dbo.dm_nuoc_tinhtp;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_nuoc_tinhtp OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_tygia ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_tygia;
+    INSERT INTO pvi_uat.dbo.dm_tygia SELECT * FROM pvi_old_uat.dbo.dm_tygia;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_tygia OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_sequence ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_sequence;
+    INSERT INTO pvi_uat.dbo.dm_sequence SELECT * FROM pvi_old_uat.dbo.dm_sequence;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_sequence OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_donvi ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_donvi;
+    INSERT INTO pvi_uat.dbo.dm_donvi SELECT * FROM pvi_old_uat.dbo.dm_donvi;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_donvi OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_chucvu ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_chucvu;
+    INSERT INTO pvi_uat.dbo.dm_chucvu SELECT * FROM pvi_old_uat.dbo.dm_chucvu;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_chucvu OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_skien_tthat ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_skien_tthat;
+    INSERT INTO pvi_uat.dbo.dm_skien_tthat SELECT * FROM pvi_old_uat.dbo.dm_skien_tthat;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_skien_tthat OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_nsp ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_nsp;
+    INSERT INTO pvi_uat.dbo.dm_nsp SELECT * FROM pvi_old_uat.dbo.dm_nsp;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_nsp OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_pttai ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_pttai;
+    INSERT INTO pvi_uat.dbo.dm_pttai SELECT * FROM pvi_old_uat.dbo.dm_pttai;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_pttai OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_sp ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_sp;
+    INSERT INTO pvi_uat.dbo.dm_sp SELECT * FROM pvi_old_uat.dbo.dm_sp;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_sp OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_tte ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_tte;
+    INSERT INTO pvi_uat.dbo.dm_tte SELECT * FROM pvi_old_uat.dbo.dm_tte;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_tte OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_vaitro ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_vaitro;
+    INSERT INTO pvi_uat.dbo.dm_vaitro SELECT * FROM pvi_old_uat.dbo.dm_vaitro;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_vaitro OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_tailieu_tab ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_tailieu_tab;
+    INSERT INTO pvi_uat.dbo.dm_tailieu_tab SELECT * FROM pvi_old_uat.dbo.dm_tailieu_tab;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_tailieu_tab OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_notify ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_notify;
+    INSERT INTO pvi_uat.dbo.dm_notify SELECT * FROM pvi_old_uat.dbo.dm_notify;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_notify OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_congty ON;
+    TRUNCATE TABLE pvi_uat.dbo.dm_congty;
+    INSERT INTO pvi_uat.dbo.dm_congty SELECT * FROM pvi_old_uat.dbo.dm_congty;
+    SET IDENTITY_INSERT pvi_uat.dbo.dm_congty OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.acl_scope ON;
+    TRUNCATE TABLE pvi_uat.dbo.acl_scope;
+    INSERT INTO pvi_uat.dbo.acl_scope SELECT * FROM pvi_old_uat.dbo.acl_scope;
+    SET IDENTITY_INSERT pvi_uat.dbo.acl_scope OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.acl_resource ON;
+    TRUNCATE TABLE pvi_uat.dbo.acl_resource;
+    INSERT INTO pvi_uat.dbo.acl_resource SELECT * FROM pvi_old_uat.dbo.acl_resource;
+    SET IDENTITY_INSERT pvi_uat.dbo.acl_resource OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.acl_operation ON;
+    TRUNCATE TABLE pvi_uat.dbo.acl_operation;
+    INSERT INTO pvi_uat.dbo.acl_operation SELECT * FROM pvi_old_uat.dbo.acl_operation;
+    SET IDENTITY_INSERT pvi_uat.dbo.acl_operation OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.user_infor ON;
+    TRUNCATE TABLE pvi_uat.dbo.user_infor;
+    INSERT INTO pvi_uat.dbo.user_infor SELECT * FROM pvi_old_uat.dbo.user_infor;
+    SET IDENTITY_INSERT pvi_uat.dbo.user_infor OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.vaitro_quyen ON;
+    TRUNCATE TABLE pvi_uat.dbo.vaitro_quyen;
+    INSERT INTO pvi_uat.dbo.vaitro_quyen SELECT * FROM pvi_old_uat.dbo.vaitro_quyen;
+    SET IDENTITY_INSERT pvi_uat.dbo.vaitro_quyen OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.user_vaitro ON;
+    TRUNCATE TABLE pvi_uat.dbo.user_vaitro;
+    INSERT INTO pvi_uat.dbo.user_vaitro SELECT * FROM pvi_old_uat.dbo.user_vaitro;
+    SET IDENTITY_INSERT pvi_uat.dbo.user_vaitro OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.user_quyen ON;
+    TRUNCATE TABLE pvi_uat.dbo.user_quyen;
+    INSERT INTO pvi_uat.dbo.user_quyen SELECT * FROM pvi_old_uat.dbo.user_quyen;
+    SET IDENTITY_INSERT pvi_uat.dbo.user_quyen OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.AspNetUserLogins ON;
+    TRUNCATE TABLE pvi_uat.dbo.AspNetUserLogins;
+    INSERT INTO pvi_uat.dbo.AspNetUserLogins SELECT * FROM pvi_old_uat.dbo.AspNetUserLogins;
+    SET IDENTITY_INSERT pvi_uat.dbo.AspNetUserLogins OFF;
+    
+    SET IDENTITY_INSERT pvi_uat.dbo.AspNetUserTokens ON;
+    TRUNCATE TABLE pvi_uat.dbo.AspNetUserTokens;
+    INSERT INTO pvi_uat.dbo.AspNetUserTokens SELECT * FROM pvi_old_uat.dbo.AspNetUserTokens;
+    SET IDENTITY_INSERT pvi_uat.dbo.AspNetUserTokens OFF;
+    
